@@ -6,11 +6,8 @@ import atlantafx.base.theme.*;
 import atlantafx.base.theme.Styles;
 
 import java.util.Objects;
-
 import javafx.application.Application;
 import javafx.application.Platform;
-import javafx.beans.property.SimpleStringProperty;
-import javafx.beans.property.StringProperty;
 import javafx.geometry.*;
 import javafx.scene.Cursor;
 import javafx.scene.control.Button;
