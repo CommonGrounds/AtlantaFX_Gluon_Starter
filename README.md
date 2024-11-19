@@ -2,6 +2,10 @@
 
 AtlantaFX Themes implemented on Gluon Platform ( Desktop, Android, Ios )
 
+<p align="center">
+<img src="https://raw.githubusercontent.com/CommonGrounds/AtlantaFX_Gluon_Starter/master/.screenshots/Starter.png" alt="blueprints"/><br/>
+</p>
+
 ## Documentation
 
 Read how to create Gluon samples step by step [here](https://docs.gluonhq.com/samples)
