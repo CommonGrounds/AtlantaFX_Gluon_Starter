@@ -1,6 +1,7 @@
 # AtlantaFX Gluon starter
 
-AtlantaFX Themes implemented on Gluon Platform ( Desktop, Android, Ios )
+[AtlantaFX](https://github.com/mkpaz/atlantafx) Themes implemented on [Gluon](https://gluonhq.com/services) Platform ( Desktop, Android, Ios ).<br>
+This is simple starter implementation with buttons on menu bar , search bar and AtlantaFX notification widget.
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/CommonGrounds/AtlantaFX_Gluon_Starter/master/.screenshots/Starter.png" alt="blueprints"/><br/>
