@@ -6,8 +6,11 @@ import atlantafx.base.theme.*;
 import atlantafx.base.theme.Styles;
 
 import java.util.Objects;
+
 import javafx.application.Application;
 import javafx.application.Platform;
+import javafx.beans.property.SimpleStringProperty;
+import javafx.beans.property.StringProperty;
 import javafx.geometry.*;
 import javafx.scene.Cursor;
 import javafx.scene.control.Button;
@@ -35,7 +38,7 @@ public class App extends Application {
     ModalPane modalPane;
     TextField search_txt;
 
-//    Theme theme = new PrimerLight();
+    //    Theme theme = new PrimerLight();
 //    Theme theme = new PrimerDark();
 //    Theme theme = new Dracula();
     Theme theme = new CupertinoDark();
@@ -157,7 +160,11 @@ public class App extends Application {
         right_app_top_bar.setAlignment(Pos.TOP_RIGHT);
 
         var app_top_bar = new HBox(left_app_top_bar, center_app_top_bar, right_app_top_bar);
-//        app_top_bar.getChildren().get(1).setLayoutX(50.0);
+//        app_top_bar.setStyle("-fx-padding: 10px;-fx-background-color:rgba(255, 0, 0, 0.1);");
+
+//        var smallSep = new javafx.scene.control.Separator(Orientation.HORIZONTAL);
+//        smallSep.getStyleClass().add(Styles.SMALL);
+//        var app_top_bar_v = new  VBox(app_top_bar, smallSep);
 
         var border_pane = new BorderPane() {
             @Override
