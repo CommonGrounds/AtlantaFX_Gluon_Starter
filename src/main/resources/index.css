@@ -33,3 +33,15 @@
     -fx-pref-width: 390px;
     -fx-text-alignment: center;
 }
+
+.menu_bar {
+  -fx-color-one: red;
+  -fx-color-two: green;
+  -fx-color-three: black;
+
+  -fx-background-color:
+      linear-gradient(#f2f2f2, -fx-color-one),
+      linear-gradient(#fcfcfc 0%, -fx-color-two 20%, -fx-color-one 100%),
+      linear-gradient(#dddddd 0%, -fx-color-three 50%);
+  -fx-effect: dropshadow( three-pass-box, rgba(0, 0, 0, 0.6), 5, 0.0, 0, 1);
+}

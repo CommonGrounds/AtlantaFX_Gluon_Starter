@@ -38,7 +38,7 @@ public class App extends Application {
     ModalPane modalPane;
     TextField search_txt;
 
-    //    Theme theme = new PrimerLight();
+//    Theme theme = new PrimerLight();
 //    Theme theme = new PrimerDark();
 //    Theme theme = new Dracula();
     Theme theme = new CupertinoDark();
@@ -160,7 +160,8 @@ public class App extends Application {
         right_app_top_bar.setAlignment(Pos.TOP_RIGHT);
 
         var app_top_bar = new HBox(left_app_top_bar, center_app_top_bar, right_app_top_bar);
-//        app_top_bar.setStyle("-fx-padding: 10px;-fx-background-color:rgba(255, 0, 0, 0.1);");
+//        app_top_bar.setStyle("-fx-padding: 10px;-fx-background-color:rgba(255, 0, 0, 0.2);");           // izbaciti padding za borderpane
+        app_top_bar.getStyleClass().add("menu_bar");
 
 //        var smallSep = new javafx.scene.control.Separator(Orientation.HORIZONTAL);
 //        smallSep.getStyleClass().add(Styles.SMALL);
@@ -181,7 +182,7 @@ public class App extends Application {
         BorderPane.setAlignment(app_top_bar, javafx.geometry.Pos.TOP_CENTER);
         border_pane.setCenter(center_pane);
         BorderPane.setAlignment(center_pane, Pos.CENTER);
-        border_pane.setPadding(new Insets(10, 0, 0, 0));
+//        border_pane.setPadding(new Insets(10, 0, 0, 0)); // Ako primenimo padding sa setstyle onda ovo ukloniti
 
         return border_pane;
     }
